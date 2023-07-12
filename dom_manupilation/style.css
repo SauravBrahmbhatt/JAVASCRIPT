@@ -1,0 +1,24 @@
+.main-container {
+  margin-bottom: 20px;
+}
+
+.main-container select,
+.main-container input[type="color"],
+.main-container textarea {
+  margin-bottom: 10px;
+}
+
+.main-container h1,
+.main-container p,
+.main-container div {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.main-container .edit,
+.main-container .delete {
+  display: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
